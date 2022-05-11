@@ -4,7 +4,7 @@
 package main
 
 import (
-	"go-concurrency-patterns/search"
+	"go-concurrency-patterns/go-in-action-patterns/search"
 	"log"
 )
 

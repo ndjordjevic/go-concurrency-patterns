@@ -3,7 +3,7 @@
 package main
 
 import (
-	"go-concurrency-patterns/pool"
+	"go-concurrency-patterns/go-in-action-patterns/pool"
 	"io"
 	"log"
 	"math/rand"

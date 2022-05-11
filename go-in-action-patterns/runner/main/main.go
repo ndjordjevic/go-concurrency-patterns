@@ -4,7 +4,7 @@
 package main
 
 import (
-	"go-concurrency-patterns/runner"
+	"go-concurrency-patterns/go-in-action-patterns/runner"
 	"log"
 	"os"
 	"time"

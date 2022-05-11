@@ -1,6 +1,6 @@
 // Example provided with help from Fatih Arslan and Gabriel Aszalos.
 // Package pool manages a user defined set of resources.
-//The purpose of the package is to show how you can use a buffered channel to pool
+// The purpose of the package is to show how you can use a buffered channel to pool
 // pool a set of resources that can be shared and individually used by any number of
 // goroutines. This pattern is useful when you have a static set of resources to share,
 // such as database connections or memory buffers. When a goroutine needs one of

@@ -3,7 +3,7 @@
 package main
 
 import (
-	"go-concurrency-patterns/work"
+	"go-concurrency-patterns/go-in-action-patterns/work"
 	"log"
 	"sync"
 	"time"
