@@ -9,7 +9,7 @@ import (
 func main() {
 	ch := make(chan string)
 
-	// Good point to start is to have the no of go routines the same as no of cpu cores
+	// Good point to start is to have the no of goroutines the same as no of cpu cores
 	g := runtime.GOMAXPROCS(0)
 	for c := 0; c < g; c++ {
 		go func(child int) {
