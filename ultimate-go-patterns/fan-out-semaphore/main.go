@@ -30,7 +30,7 @@ func main() {
 				ch <- "data"
 				fmt.Println("child : sent signal :", child)
 			}
-			// opens for anoother goroutine to do it's work
+			// opens for another goroutine to do it's work
 			<-sem
 		}(c)
 	}
