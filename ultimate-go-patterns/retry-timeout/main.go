@@ -13,6 +13,9 @@ func main() {
 	retryTimeout(ctx, time.Second, func(ctx context.Context) error { return errors.New("always fail") })
 }
 
+// retryTimeout: You need to validate if something can be done with no error
+// but it may take time before this is true. You set a retry interval to create
+// a delay before you retry the call and you use the context to set a timeout.
 func retryTimeout(ctx context.Context, retryInterval time.Duration, check func(ctx context.Context) error) {
 
 	for {
